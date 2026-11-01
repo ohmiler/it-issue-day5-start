@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f6f7fb;
+        color: #111827;
+        line-height: 1.5;
+    }
+
+    main {
+        width: 100%;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+}
